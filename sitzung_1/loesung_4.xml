@@ -1,0 +1,20 @@
+<text>
+    <seitenbeginn nummer="1"/>
+    <titelei>
+        <titel>Gedichte</titel>
+        <untertitel>Erste Periode.</untertitel>
+    </titelei>
+    <gedicht nummer="1">
+        <gedichttitel><person id="pers001">Hektors</person> Abschied.</gedichttitel>
+        <strophe nummer="1">
+            <strophentitel><person id="pers002">Andromache</person>.</strophentitel>
+            <vers nummer="1">Will sich <person id="pers001">Hektor</person> ewig von mir wenden,</vers>
+            <vers nummer="2">Wo <person id="pers003">Achill</person> mit den unnahbar’n Händen</vers>
+            <vers nummer="3">Dem <person id="pers004">Patroklus</person> schrecklich Opfer bringt?</vers>
+            <vers nummer="4">Wer wird künftig deinen Kleinen lehren</vers>
+            <vers nummer="5">Speere werfen und die Götter ehren,</vers>
+            <vers nummer="6">Wenn der finstre <ort id="ort001">Orkus</ort> dich verschlingt?</vers>
+        </strophe>
+        [… hier kommen die weiteren Strophen hin]
+    </gedicht>
+</text>

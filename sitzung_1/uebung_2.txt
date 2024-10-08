@@ -1,0 +1,6 @@
+Verschachteln Sie das bisher Kodierte, um die Struktur des Textes besser wiederzugeben. Nutzen Sie dafür die folgenden Elemente:
+
+<text> 		[Gruppiert alles => Wurzelelement]
+<titelei> 	[Gruppiert die Überschriften]
+<gedicht> 	[Gruppiert den Gedichttitel und die Strophen]
+<strophe> 	[Gruppiert den Strophentitel und die Verse] 

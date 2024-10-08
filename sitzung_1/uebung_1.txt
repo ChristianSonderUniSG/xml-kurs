@@ -1,0 +1,9 @@
+Zeichnen Sie die Titel und die erste Strophe des Gedichts «Hektors Abschied»
+aus der Datei schiller.png mit folgenden Elementen aus:
+
+<titel>
+<untertitel>
+<gedichttitel>
+<strophentitel>
+<vers>
+<seitenbeginn>

@@ -1,0 +1,4 @@
+Zeichnen Sie in dem bisher Kodierten die Namen von Personen und Orten mit folgenden Elementen aus:
+
+<person>
+<ort>

@@ -1,0 +1,9 @@
+Erweitern Sie die zuletzt kodierten Personen- und Ortselemente um jeweils ein Attribut «id» und nutzen Sie die unten stehenden Werte:
+
+Hektor			pers001
+Andromache		pers002
+Achill			pers003
+Patroklus		pers004
+Orkus			ort001
+
+Erweitern Sie ausserdem die Elemente: gedicht, strophe, vers und seitenbeginn um das Attribut Nummer und fügen Sie einen sinnvollen Wert sein.
