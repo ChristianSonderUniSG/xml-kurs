@@ -1,0 +1,7 @@
+Thema Dokumentsyntax
+
+Welche der folgenden XML-Dokumente sind nicht korrekt und warum sind sie es nicht?
+
+a) ist korrekt, allerdings erschwert die schlechte Einrückung das Erfassen des Textes.
+b) ist korrekt.
+c) ist nicht korrekt, weil hier kein Wurzelelement vorliegt, sondern zwei Elemente auf gleicher Ebene.
