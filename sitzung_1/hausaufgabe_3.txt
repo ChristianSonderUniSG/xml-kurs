@@ -1,0 +1,11 @@
+Thema Attribut-Syntax
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a)	<name type="Person" "id"=pers1>Hektor</name>
+b) 	<name type="Person" id='pers1'>Hektor</name>
+c)	<name id="pers001" type="Person" id="pers001">Hektor</name>
+d)	<name>Hektor</name type="Person">
+e)	<name type="   Person   " id="'pers001'">Hektor</name>
+f)	<name type=" " persID="1">Hektor</name>
+g) 	<name type="Person" name="He<ktor"/>

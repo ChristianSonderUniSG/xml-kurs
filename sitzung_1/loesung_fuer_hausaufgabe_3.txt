@@ -1,0 +1,11 @@
+Thema Attribut-Syntax
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) ist nicht korrekt, weil die Anführungszeichen nicht um den Namen des Attributs id stehen dürfen.
+b) ist korrekt. Es ist allerdings schlechter Stil, '"' und "'" zu mischen.
+c) ist nicht korrekt, weil das Attribut id zweimal im selben Element vorkommt.
+d) ist nicht korrekt, weil ein Attribut niemals im Endtag, sondern nur im Starttag oder Emptytag vorkommen darf.
+e) ist korrekt. Es ist sowohl erlaubt Weissraum im Attributwerten zu haben als auch Anführungszeichen. Beides ist allerdings schlechter Stil und sollte vermieden werden.
+f) ist korrekt. Ein Attributwert darf auch nur aus Weissraum bestehen oder sogar komplett leer sein. Beides ist allerdings wenig sinnvoll.
+g) ist nicht korrekt. < darf nicht im Attributwert stehen. Näheres dazu in Sitzung 2.
