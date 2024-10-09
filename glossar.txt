@@ -1,0 +1,19 @@
+Attribut		Attributname + = + "Attributwert" oder Attributname + = + 'Attributwert'
+Content			Inhalt eines Elements, kann aus Elementen, Text oder beidem zugleich bestehen (Mixed Content)
+DTD			Dokumenttypdefinition: Satz von Regeln, die die Inhalt eines XML-Dokuments beschreiben 
+Element			Entweder Emptytag oder Starttag + Content + Endtag	
+Emptytag		< + Elementname + 0-n Attribute + />
+Endtag			</ + Elementname + >
+Mixed Content		s. Content
+Prolog			Vor dem Wurzelelement stehender Abschnitt, der eine XML-Deklaration und eine DTD enthalten kann
+Starttag		< + Elementname + 0-n Attribute + >
+wohlgeformt		den XML-Syntax-Regeln entsprechend
+Wurzelelement		Das einzige äusserste Element, welches alle anderen Elemente eines XML-Dokuments umfasst
+valide			einem XML-Schema entsprechend
+XML			eXtensible Markup Language
+XML-Dokument		ein wohlgeformtes Datenobjekt, bestehend aus einem Prolog, einem Wurzelelement und ggfs. sonstigen Inhalten
+XML-Dokumentklasse	Abstraktes Muster für beliebig viele XML-Dokumente
+XML-Editor		Software, mit der XML-Dokumente erstellt oder bearbeitet werden können.
+XML-Deklaration		z. B. <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+XML-Prozessor		Software, die XML-Dokumente automatisiert verarbeitet
+XML-Schema		Sprache zur Beschreibung von XML-Dokumentklassen
