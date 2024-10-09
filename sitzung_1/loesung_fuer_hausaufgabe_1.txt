@@ -1,0 +1,11 @@
+Thema Element-Syntax
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) ist nicht korrekt, weil Starttag und Endtag nicht zusammenpassen.
+b) ist korrekt, auch wenn der Elementname nicht besonders geschickt gewählt wurde.
+c) ist nicht korrekt, weil sich person und ort überlappen.
+d) ist korrekt
+e) ist nicht korrekt, weil zeitpunkt bereits ein Emptytag ist und deswegen kein Endtag haben kann.
+f) ist nicht korrekt, weil am Anfang von Elementnamen keine Ziffern stehen dürfen.
+g) ist korrekt, nahezu alle Buchstaben, auch solche aus anderen Schriften, sind erlaubt. Allerdings gilt auch hier, dass der Name nicht besonders geschickt ist.

@@ -1,0 +1,11 @@
+Thema Element-Syntax
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a)	<person>Hektor</Person>  
+b) 	<PeRsOn>Hektor</PeRsOn>
+c)	<person>Christian I von <ort>St.</person> Gallen </ort>
+d)	<person>Christian I von <ort>St. Gallen</ort></person>
+e)	<zeitpunkt n="16:30"/></zeitpunkt>
+f)	<1stePerson>Hektor</1stePerson>
+g)	<αβγδεsoidl-fjsdkfsdnflsdf_34324i8234wedjnma/>
