@@ -1,0 +1,30 @@
+Zum Nachdenken:
+Wir wollen ein Adressbuch mit XML kodieren und haben bspw. folgende Adresse:
+Max Mustermann, Musterstrasse 1, CH-1234 Musterhausen.
+
+Welche der folgenden XML-Kodierungen ist die geeignetste?
+Welche Vor- bzw. Nachteile haben die folgenden Kodierungen?
+Gäbe es noch andere Möglichkeiten?
+
+a)
+<adresse name="Max Mustermann" strasse="Musterstrasse 1" plz="CH-1234" ort="Musterhausen"/>
+
+b)
+<adresse>
+  <name>Max Mustermann</name>
+  <strasse>Musterstrasse 1</strasse>
+  <plz>CH-1234</plz>
+  <ort>Musterhausen</ort>
+</adresse>
+
+c)
+<adresse>
+  <name>
+     <vorname>Max</vorname>
+     <nachname>Mustermann</nachname>
+  </name>
+  <strasse>Musterstrasse</strasse>
+  <hausnummer>1</hausnummer>
+  <plz land="CH">1234</plz>
+  <ort>Musterhausen</ort>
+</adresse>
