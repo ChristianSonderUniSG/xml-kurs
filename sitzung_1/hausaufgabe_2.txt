@@ -4,30 +4,29 @@ Welche der folgenden XML-Dokumente sind nicht korrekt und warum sind sie es nich
 
 a)
 <text>
-	<person>Hektor</person>
-	von
-	<ort
-	>Troja
-	</ort> zog aus gegen Achill.
-    Achill rächte Patroklos Tod.
+    <person>Hektor</person> von
+    <ort
+    >Troja
+    </ort> zog aus gegen Achill. Achill rächte 
+    Patroklos Tod.
 </text>
 
 b)
 <text>
-	<person>Hektor</person> 
+    <person>Hektor</person> 
     von
-	<ort>Troja</ort> 
+    <ort>Troja</ort> 
     zog aus gegen Achill.
     Achill rächte Patroklos Tod.
 </text>
 
 c)
 <text>
-	<person>Hektor</person>
-	von
-	<ort>Troja</ort>
-	zog aus gegen Achill.
+    <person>Hektor</person>
+    von
+    <ort>Troja</ort>
+    zog aus gegen Achill.
 </text>
 <text>
-	Achill rächte Patroklos Tod.
+    Achill rächte Patroklos Tod.
 </text>
