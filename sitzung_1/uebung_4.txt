@@ -6,4 +6,4 @@ Achill			pers003
 Patroklus		pers004
 Orkus			ort001
 
-Erweitern Sie ausserdem die Elemente: gedicht, strophe, vers und seitenbeginn um das Attribut Nummer und fügen Sie einen sinnvollen Wert sein.
+Erweitern Sie ausserdem die Elemente: gedicht, strophe, vers und seitenbeginn um das Attribut «nummer» und fügen Sie einen sinnvollen Wert sein.
