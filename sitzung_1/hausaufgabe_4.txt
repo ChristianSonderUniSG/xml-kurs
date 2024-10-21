@@ -4,7 +4,7 @@ Max Mustermann, Musterstrasse 1, CH-1234 Musterhausen.
 
 Welche der folgenden XML-Kodierungen ist die geeignetste?
 Welche Vor- bzw. Nachteile haben die folgenden Kodierungen?
-Gäbe es noch andere Möglichkeiten?
+Gäbe es noch andere Möglichkeiten, den Sachverhalt zu modellieren?
 
 a)
 <adresse name="Max Mustermann" strasse="Musterstrasse 1" plz="CH-1234" ort="Musterhausen"/>
