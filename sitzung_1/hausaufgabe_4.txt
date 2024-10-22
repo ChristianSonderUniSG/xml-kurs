@@ -25,6 +25,7 @@ c)
   </name>
   <strasse>Musterstrasse</strasse>
   <hausnummer>1</hausnummer>
-  <plz land="CH">1234</plz>
+  <plz>1234</plz>
   <ort>Musterhausen</ort>
+  <land>Schweiz</land>
 </adresse>
