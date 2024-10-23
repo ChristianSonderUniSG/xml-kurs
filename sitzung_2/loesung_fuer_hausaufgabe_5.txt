@@ -1,0 +1,14 @@
+Thema XML-Deklarationen
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) ist nicht korrekt. Eine XML-Deklaration wird mit "<?xml" eingeleitet und mit "?>" beendet.
+b) ist korrekt. Das ist in der Praxis die häufigste XML-Deklaration.
+c) ist korrekt. Die Angabe des Attributs standalone mit dem Wert "no" ist die Voreinstellung.
+   Man kann in diesem Fall auf das Attribut standalone verzichten.
+d) ist korrekt.
+e) ist korrekt. Das Attribut encoding darf weggelassen werden.
+f) ist nicht korrekt. Die Version muss mit angegeben werden.
+g) ist korrekt. Es gibt XML Version 1.0 und 1.1 und UTF-8, UTF-16 sowie UTF-32, wenngleich
+   XML 1.0 und UTF-8 die am häufigsten eingesetzten Versionen sind.
+h) ist nicht korrekt. XML Version 2.0 gibt es (zur Zeit) nicht.
