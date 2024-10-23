@@ -7,14 +7,14 @@ Welche Vor- bzw. Nachteile haben die folgenden Kodierungen?
 Gäbe es noch andere Möglichkeiten, den Sachverhalt zu modellieren?
 
 a)
-<adresse name="Max Mustermann" strasse="Musterstrasse 1" plz="CH-1234" ort="Musterhausen"/>
+<datensatz typ="Adresse" name="Max Mustermann" strasse="Musterstrasse 1" plz="CH-1234" ort="Musterstadt"/>
 
 b)
 <adresse>
   <name>Max Mustermann</name>
   <strasse>Musterstrasse 1</strasse>
   <plz>CH-1234</plz>
-  <ort>Musterhausen</ort>
+  <ort>Musterstadt</ort>
 </adresse>
 
 c)
@@ -26,6 +26,6 @@ c)
   <strasse>Musterstrasse</strasse>
   <hausnummer>1</hausnummer>
   <plz>1234</plz>
-  <ort>Musterhausen</ort>
+  <ort>Musterstadt</ort>
   <land>Schweiz</land>
 </adresse>
