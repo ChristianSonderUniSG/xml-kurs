@@ -1,5 +1,6 @@
-Zum Nachdenken:
-Wir wollen ein Adressbuch mit XML kodieren und haben bspw. folgende Adresse:
+Thema Elemente vs. Attribute 
+
+Zum Nachdenken: Wir wollen ein Adressbuch mit XML kodieren und haben bspw. folgende Adresse:
 Max Mustermann, Musterstrasse 1, CH-1234 Musterstadt.
 
 Welche der folgenden XML-Kodierungen ist die Beste?

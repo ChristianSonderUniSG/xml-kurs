@@ -8,3 +8,4 @@ c) <element><!-- Darf ich hier stehen? --></element>
 d) <element <!-- Darf ich hier stehen? -->></element>
 e) <element attribut="<!-- Und hier? -->"/>
 f) <!-- Davor --><wurzel>...</wurzel><!-- und danach? -->
+g) <!-- Kommentar im <!-- Kommentar --> -->

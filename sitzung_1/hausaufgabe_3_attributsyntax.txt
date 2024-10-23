@@ -1,4 +1,4 @@
-Thema Attribut-Syntax
+Thema Attributsyntax
 
 Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
 

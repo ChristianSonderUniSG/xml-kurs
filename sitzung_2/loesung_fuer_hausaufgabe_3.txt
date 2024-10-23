@@ -8,3 +8,5 @@ c) ist korrekt.
 d) ist nicht korrekt. XML-Kommentare müssen ausserhalb von anderem Markup stehen.
 e) ist nicht korrekt. Wie zu d) erläutert, müssen XML-Kommentare ausserhalb von anderem Markup stehen.
 f) ist korrekt. XML-Kommentare dürfen auch ausserhalb des Wurzelelements vorkommen.
+g) ist nicht korrekt. Das "--" im Beginn des zweiten Kommentars "<!--" ist bereits nicht erlaubt.
+   Deswegen können Kommentare nicht ineinander verschachtelt werden. 

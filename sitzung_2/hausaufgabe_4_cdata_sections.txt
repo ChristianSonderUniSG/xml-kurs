@@ -1,0 +1,20 @@
+Thema CDATA Sections
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) <![CDATA[ Das hier ist eine CDATA-Section. Sie beinhaltet <elemente>,
+    <elemente mit="attributen"/>, <!-- Kommentare -->, Steuerzeichen &<>"'.
+    Alles, was man so in XML braucht.]]>
+b) <![CDATA[ Das hier ist noch eine CDATA-Section. Sie beinhaltet Escaping von &lt;elementen&gt;,
+    &lt;elementen mit=&quot;attributen&quot;/&gt; &amp; so weiter.]]>
+c) <![CDATA[ Foo <![CDATA[ Bar ]]> Baz ]]>
+
+Thema CDATA Sections
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) ist korrekt. In einer CDATA Sections muss nichts escaped werden.
+b) ist korrekt. Man kann in einer CDATA Section escapen, aber das ist unnötig.
+c) ist nicht korrekt. CDATA Sections können, im Übrigen wie auch Kommentare und Attribute, 
+   nicht ineinander verschachtelt werden. Begründung: ]]> beendet die CDATA Section sofort. 
+   Deswegen bleibt das zweite "]]>" übrig.
