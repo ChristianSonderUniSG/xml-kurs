@@ -1,0 +1,10 @@
+Thema Escapen in Attributen
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) ist nicht korrekt, weil "&" in Attributen mit &amp; escaped werden muss.
+b) ist nicht korrekt, weil "<" in Attributen mit &lt; escaped werden muss.
+c) ist korrekt.
+d) ist korrekt, zumindest aus XML-Sicht. Sprachlich gesehen gibt es keinen Grund für den Apostroph an dieser Stelle.
+e) ist nicht korrekt. Wenn der Attributwert mit "'" eingeleitet wird, muss "'" mit "&apos;" escaped werden.
+f) ist nicht korrekt. Wenn der Attributwert mit '"' eingeleitet wird, muss '"' mit "&quot;" escaped werden.

@@ -1,0 +1,10 @@
+Thema Escapen in Attributen
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) <name persID="&1">Hektor</name>
+b) <zahl wert="a<b"/>
+c) <zahl wert="a>b"/>
+d) <person spitzname="Hektor's Erzfeind">Achill</person>
+e) <person spitzname='Hektor's Erzfeind'>Achill</person>
+f) <person zitat=""Hektors Liebe stirbt im Lethe nicht."">Hektor</person>
