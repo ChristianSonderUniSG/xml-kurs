@@ -1,5 +1,7 @@
 Thema Escapen in Elementen
 
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
 a) ist nicht korrekt, weil das "&" mit "&amp;" escaped werden muss.
 b) ist nicht korrekt, weil das "<" mit "&lt;" escaped werden muss.
 c) ist nicht korrekt, weil eine Entity nicht auf "," sondern auf ";" enden muss.
