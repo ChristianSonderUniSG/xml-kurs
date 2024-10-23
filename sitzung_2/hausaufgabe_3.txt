@@ -1,0 +1,10 @@
+Thema XML-Kommentare
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) <!-- Das <hier> ist ein "&Kommentar&;" -->
+b) <!-- Das -- ist -- ein -- Kommentar. -->
+c) <element><!-- Darf ich hier stehen? --></element>
+d) <element <!-- Darf ich hier stehen? -->></element>
+e) <element attribut="<!-- Und hier? -->"/>
+f) <!-- Davor --><wurzel>...</wurzel><!-- und danach? -->

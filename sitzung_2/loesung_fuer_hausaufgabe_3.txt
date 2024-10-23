@@ -1,0 +1,10 @@
+Thema XML-Kommentare
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) ist korrekt. In XML-Kommentaren muss nichts escaped werden. Der Kommentar ist natürlich etwas merkwürdig.
+b) ist nicht korrekt. "--" ist in XML-Kommentaren nicht erlaubt.
+c) ist korrekt.
+d) ist nicht korrekt. XML-Kommentare müssen ausserhalb von anderem Markup stehen.
+e) ist nicht korrekt. Wie zu d) erläutert, müssen XML-Kommentare ausserhalb von anderem Markup stehen.
+f) ist korrekt. XML-Kommentare dürfen auch ausserhalb des Wurzelelements vorkommen.
