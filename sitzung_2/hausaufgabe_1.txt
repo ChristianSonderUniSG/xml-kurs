@@ -1,0 +1,13 @@
+Thema Escapen in Elementen
+
+Welche der folgenden XML-Ausdrücke sind nicht korrekt und warum sind sie es nicht?
+
+a) <firma>Hektor & Co. KG</firma>
+b) <aussage>a < 5 </aussage>
+c) <firma> Hektor &amp, Co. KG</firma>
+d) <aussage> a > 5 </aussage>
+e) <aussage> "a" &gt; 'b'</aussage>
+f) <aussage> &quot;a&quot; &lt; &apos;b&apos;</aussage>
+g) <aus<sage>a = b</aus<sage>
+h) <aus>sage>a = b</aus>sage>
+i) <aus&lt;sage>a = b</aus&lt;sage>

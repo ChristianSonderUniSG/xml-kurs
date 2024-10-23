@@ -1,0 +1,12 @@
+Thema Escapen in Elementen
+
+a) ist nicht korrekt, weil das "&" mit "&amp;" escaped werden muss.
+b) ist nicht korrekt, weil das "<" mit "&lt;" escaped werden muss.
+c) ist nicht korrekt, weil eine Entity nicht auf "," sondern auf ";" enden muss.
+d) ist korrekt. Es ist allerdings schlechter Stil, ">" nicht zu escapen.
+e) ist korrekt, '"' und "'" müssen in Elementen nicht escaped werden.
+f) ist korrekt.
+g) ist nicht korrekt, weil "<" nicht in Elementnamen vorkommen darf.
+h) ist nicht korrekt, aber nicht aus dem gleichen Grund wie in g)!
+   Hier kommt nach dem Wurzelelement <aus> mit dem Inhalt "sage>a = b" noch der überschüssige Inhalt "sage>", was nicht erlaubt ist.
+i) ist nicht korrekt, weil "&" nicht in Elementnamen vorkommen darf.
