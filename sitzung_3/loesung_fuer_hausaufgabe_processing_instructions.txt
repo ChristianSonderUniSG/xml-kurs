@@ -1,0 +1,8 @@
+Thema Processing Instructions
+
+Was bedeuten die folgenden XML-Ausdrücke?
+
+a) beinhaltet einen lokalen Link zu einem in der Sprach XSL formulierten Stylesheet "style.xsl", welches Darstellungsinformationen für ein XML-Dokument enthält.
+b) beinhaltet ebenfalls einen lokalen Link zu einem Styleshett, doch dieses Stylesheet ("style.css") ist in der Sprache CSS verfasst.
+c) verweist auf ein im Internet liegendes XML-Schema der TEI, welches in der Sprache RelaxNG formuliert ist. Mit diesem Schema kann die XML-Datei validiert werden.
+d) verweist auf das gleiche Stylesheet wie c), doch wird hier der Teil der in der Sprache Schematron formuliert ist, angesprochen.
