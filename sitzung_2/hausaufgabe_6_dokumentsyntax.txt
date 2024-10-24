@@ -1,0 +1,30 @@
+Thema Dokumentsyntax
+
+Welche der folgenden XML-Dokumente sind nicht korrekt und warum sind sie es nicht?
+
+a)
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Anfang des Textes -->
+<text>
+   <zeile>Foo</zeile>
+   <!-- Hier kommen noch 1000 weitere Zeilen hin -->
+   <zeile>Bar</zeile>
+</text>
+
+<!-- Ende des Textes -->
+
+b)
+<!-- Anfang des Dokuments -->
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+   <zeile>Foo</zeile>
+   <!-- Hier kommen noch 1000 weitere Zeilen hin -->
+   <zeile>Bar</zeile>
+</text>
+<!-- Ende des Dokuments -->
+
+c)
+<?xml version="1.0"?>
+<a>Foo</a>
+<b>Bar</b>

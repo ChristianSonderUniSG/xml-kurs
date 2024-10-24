@@ -1,0 +1,21 @@
+Thema XML und Unicode
+
+1. Besuchen Sie die Homepage des Unicode Consortiums auf https://www.unicode.org/charts 
+und suchen Sie in den Code-Tabellen nach den Codepunkten für die folgenden Zeichen und
+schreiben sie sie sowohl als Character References wie auch direkt im XML.
+
+a) In der Tabelle "Latin Extended A" das Schaft-s ſ.
+b) In der Tabelle "Latin-1 Supplement" die ae-Ligatur æ.
+c) In der Tabelle "Combining Diacritical Marks" die übergestellten Buchstaben a, e und v: ͣ  ͤ  ͮ
+
+2. Transkribieren Sie den Text, der auf dem Scan in der Datei mhd.png zu sehen ist.
+Die Sonderzeichen aus der obigen Aufgabe werden Ihnen dabei helfen.
+Nutzen Sie folgende Elemente: <text> (Als Wurzelelement), <zeile>, <initiale> (für die beiden schönen grossen
+gemalten Buchstaben)
+
+Tipp 1: Wenn Sie kombinierende Zeichen (z. B. übergestellte Buchstaben) schreiben wollen,
+dann tippen Sie zuerst den Grundbuchstaben und danach das kombinierende Zeichen.
+a + ͤ  = aͤ
+
+Tipp 2: In Zeile 5 kommt am Ende zweimal eine Ligatur aus "d + e" vor, 
+die können Sie einfach mit "de" transkribieren.

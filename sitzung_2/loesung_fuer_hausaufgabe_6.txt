@@ -1,0 +1,7 @@
+Thema Dokumentsyntax
+
+Welche der folgenden XML-Dokumente sind nicht korrekt und warum sind sie es nicht?
+
+a) ist korrekt. Kommentare dürfen auch ausserhalb des Wurzelelements stehen. Weissraum ist ebenso.
+b) ist nicht korrekt. Die XML-Deklaration muss der erste Bestandteil eines XML-Dokuments sein.
+c) ist nicht korrekt. Es muss ein Wurzelelement geben. Das Weglassen des Attributs encoding ist allerdings erlaubt.

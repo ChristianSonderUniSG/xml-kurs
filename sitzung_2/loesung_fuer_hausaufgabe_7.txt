@@ -1,0 +1,45 @@
+Thema XML und Unicode
+
+1. Besuchen Sie die Homepage des Unicode Consortiums auf https://www.unicode.org/charts 
+und suchen Sie in den Code-Tabellen nach den Codepunkten für die folgenden Zeichen und
+schreiben sie sie sowohl als Character References wie auch direkt im XML.
+
+a) In der Tabelle "Latin Extended A" das Schaft-s ſ.
+b) In der Tabelle "Latin-1 Supplement" die ae-Ligatur æ.
+c) In der Tabelle "Combining Diacritical Marks" die übergestellten Buchstaben a, e und v: ͣ  ͤ  ͮ
+
+2. Transkribieren Sie den Text, der auf dem Scan in der Datei mhd.png zu sehen ist.
+Die Sonderzeichen aus der obigen Aufgabe werden Ihnen dabei helfen.
+Nutzen Sie folgende Elemente: <text> (Als Wurzelelement), <zeile>, <initiale> (für die beiden schönen grossen
+gemalten Buchstaben)
+
+Tipp 1: Wenn Sie kombinierende Zeichen (z. B. übergestellte Buchstaben) schreiben wollen,
+dann tippen Sie zuerst den Grundbuchstaben und danach das kombinierende Zeichen.
+a + ͤ  = aͤ
+
+Tipp 2: In Zeile 5 kommt am Ende zweimal eine Ligatur aus "d + e" vor, 
+die können Sie einfach mit "de" transkribieren.
+
+Lösung mit Zeichen direkt eingebettet:
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <zeile n="1">do ſpͣch der chvͤne Sivrit ſo wil ich Chiem-</zeile>
+    <zeile n="2">hilden nemen.</zeile>
+    <zeile n="3"><initiale>D</initiale>ie ſcoͤnen ivnchfroͮwen von Bvrgonden lant.</zeile>
+    <zeile n="4">dvrch ir vnmazen ſcoͤne daz iſt mir wol</zeile>
+    <zeile n="5">bechant. nie keiſer wart ſo riche. der wolde</zeile>
+    <zeile n="6">haben wip. im zæme wol ce minnen der</zeile>
+    <zeile n="7">richen chvneginne lip. <initiale>D</initiale>iſiv ſelbn mære</zeile>
+</text>
+
+Lösung mit Zeichen als Character References umschrieben:
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <zeile n="1">do &#x017F;p&#x0363;ch der chv&#x0364;ne Sivrit &#x017F;o wil ich Chiem-</zeile>
+    <zeile n="2">hilden nemen.</zeile>
+    <zeile n="3"><initiale>D</initiale>ie &#x017F;co&#x0364;nen ivnchfro&#x036E;wen von Bvrgonden lant.</zeile>
+    <zeile n="4">dvrch ir vnmazen &#x017F;co&#x0364;ne daz i&#x017F;t mir wol</zeile>
+    <zeile n="5">bechant. nie kei&#x017F;er wart &#x017F;o riche. der wolde</zeile>
+    <zeile n="6">haben wip. im z&#x00E6;me wol ce minnen der</zeile>
+    <zeile n="7">richen chvneginne lip. <initiale>D</initiale>i&#x017F;iv &#x017F;elbn m&#x00E6;re</zeile>
+</text>
