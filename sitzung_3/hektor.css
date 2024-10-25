@@ -1,0 +1,64 @@
+* {
+    display: block;
+}
+
+text {
+    display: block;
+    margin-left: 10px;
+}
+
+seitenbeginn:before {
+    content: "[Seite " attr(nummer) "]";
+}
+
+seitenbeginn {
+    display: inline
+}
+
+titelei {
+
+}
+
+titel {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+untertitel {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+gedicht {
+
+}
+
+gedichttitel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+strophe {
+    margin-bottom: 10px;
+}
+
+strophentitel {
+    font-weight: bold;
+}
+
+vers:before {
+    content: attr(nummer) "   ";
+}
+
+person {
+    display: inline;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+ort {
+    display: inline;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}

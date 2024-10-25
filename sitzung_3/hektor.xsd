@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="text">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="seitenbeginn" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="titelei"/>
+        <xs:sequence>
+          <xs:element ref="gedicht" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titelei">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titel"/>
+        <xs:element ref="untertitel"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titel" type="xs:string"/>
+  <xs:element name="untertitel" type="xs:string"/>
+  <xs:element name="gedicht">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="gedichttitel"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="seitenbeginn"/>
+          <xs:choice maxOccurs="unbounded">
+            <xs:element ref="strophe"/>
+            <xs:element ref="vers"/>
+          </xs:choice>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="nummer" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gedichttitel">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="person"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="strophe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="strophentitel"/>
+        <xs:element maxOccurs="unbounded" ref="vers"/>
+      </xs:sequence>
+      <xs:attribute name="nummer" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="strophentitel">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="person"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vers">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="person"/>
+        <xs:element ref="ort"/>
+      </xs:choice>
+      <xs:attribute name="nummer" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ort">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="id" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="seitenbeginn">
+    <xs:complexType>
+      <xs:attribute name="nummer" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="person">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="id" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

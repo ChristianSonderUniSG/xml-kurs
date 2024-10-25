@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+   <seitenbeginn nummer="1"/>
+   <titelei>
+      <titel>Gedichte</titel>
+      <untertitel>Erſte Periode.</untertitel>
+   </titelei>
+   <gedicht nummer="1">
+      <gedichttitel><person id="pers001">Hektors</person> Abſchied.</gedichttitel>
+      <strophe nummer="1">
+         <strophentitel><person id="pers002">Andromache</person>.</strophentitel>
+         <vers nummer="1">Will ſich <person id="pers001">Hektor</person> ewig von mir wenden,</vers>
+         <vers nummer="2">Wo <person id="pers003">Achill</person> mit den unnahbar’n Händen</vers>
+         <vers nummer="3">Dem <person id="pers004">Patroklus</person> ſchrecklich Opfer bringt?</vers>
+         <vers nummer="4">Wer wird künftig deinen Kleinen lehren</vers>
+         <vers nummer="5">Speere werfen und die Götter ehren,</vers>
+         <vers nummer="6">Wenn der finſtre <ort id="ort001">Orkus</ort> dich verſchlingt?</vers>
+      </strophe>
+      <strophe nummer="2">
+         <strophentitel><person id="pers001">Hektor</person>.</strophentitel>
+         <vers nummer="1">Theures Weib, gebiete deinen Thränen!</vers>
+         <vers nummer="2">Nach der Feldſchlacht iſt mein feurig Sehnen.</vers>
+         <vers nummer="3">Dieſe Arme ſchützen <ort id="ort002">Pergamus</ort>.</vers>
+         <vers nummer="4">Kämpfend für den heil'gen Heerd der Götter</vers>
+         <vers nummer="5">Fall' ich, und des Vaterlandes Retter</vers>
+         <vers nummer="6">Steig' ich nieder zum dem ſtyg'ſchen Fluß.</vers>
+      </strophe>
+      <strophe nummer="3">
+         <strophentitel><person id="pers002">Andromache</person>.</strophentitel>
+         <vers nummer="1">Nimmer lauſch ich deiner Waffen Schalle,</vers>
+         <vers nummer="2">Müßig liegt dein Eiſen in der Halle,</vers>
+         <vers nummer="3"><person id="pers005">Priams</person> großer Heldenſtamm verdirbt.</vers>
+         <vers nummer="4">Du wirſt hingeh'n wo kein Tag mehr ſcheinet,</vers>
+         <vers nummer="5">Der <ort id="ort003">Cocytus</ort> durch die Wüſten weinet,</vers>
+         <vers nummer="6">Deine Liebe in dem <ort id="ort004">Lethe</ort> ſtirbt.</vers>
+      </strophe>
+      <seitenbeginn nummer="2"/>
+      <strophe nummer="4">
+         <strophentitel><person id="pers001">Hektor</person>.</strophentitel>
+         <vers nummer="1">All mein Sehnen will ich, all mein Denken,</vers>
+         <vers nummer="2">In des <ort id="ort005">Lethe</ort> ſtillen Strom verſenken,</vers>
+         <vers nummer="3">Aber meine Liebe nicht.</vers>
+         <vers nummer="4">Horch! der Wilde tobt schon an den Mauern,</vers>
+         <vers nummer="5">Gürte mir das Schwert um, laß das Trauern!</vers>
+         <vers nummer="6"><person id="pers001">Hektors</person> Liebe ſtirbt im <ort id="ort005">Lethe</ort> nicht.</vers>
+      </strophe>
+   </gedicht>
+</text>
