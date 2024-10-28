@@ -6,12 +6,3 @@ a) <?xml-stylesheet type="text/xsl" href="style.xsl"?>
 b) <?xml-stylesheet type="text/xsl" href="style.css"?>
 c) <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 d) <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-Thema Processing Instructions
-
-Was bedeuten die folgenden XML-Ausdrücke?
-
-a) beinhaltet einen lokalen Link zu einem in der Sprach XSL formulierten Stylesheet "style.xsl", welches Darstellungsinformationen für ein XML-Dokument enthält.
-b) beinhaltet ebenfalls einen lokalen Link zu einem Styleshett, doch dieses Stylesheet ("style.css") ist in der Sprache CSS verfasst.
-c) verweist auf ein im Internet liegendes XML-Schema der TEI, welches in der Sprache RelaxNG formuliert ist. Mit diesem Schema kann die XML-Datei validiert werden.
-d) verweist auf das gleiche Stylesheet wie c), doch wird hier der Teil der in der Sprache Schematron formuliert ist, angesprochen.
