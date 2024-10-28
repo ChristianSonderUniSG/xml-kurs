@@ -33,8 +33,8 @@
      </front>
       <body>
          <pb n="1"/>
-         <head type="title">Gedichte</head>
-         <head type="subtitle">Erſte Periode.</head>
+         <head type="main">Gedichte</head>
+         <head type="sub">Erſte Periode.</head>
          <div type="gedicht" n="1">
             <head><persName ref="pers001">Hektors</persName> Abſchied.</head>
             <lg n="1">
