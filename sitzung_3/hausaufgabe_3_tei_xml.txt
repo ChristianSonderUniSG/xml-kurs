@@ -1,0 +1,9 @@
+Konvertieren Sie die Datei hektor.xml in ein TEI-konformes XML.
+Sie können die Konvertierung händisch vornehmen oder mithilfe
+der XML-Refaktorierungswerkzeuge des Oxygyen XML-Editors.
+
+Tipp: Nutzen Sie die Tabellen in den Folien zur Sitzung
+oder recherchieren Sie auf eigene Faust in den TEI-Richtlinien
+unter: https://tei-c.org/release/doc/tei-p5-doc/de/html/index.html
+
+Spoiler: Ein mögliches Ergebnis sehen Sie in der Datei hektor_tei.xml

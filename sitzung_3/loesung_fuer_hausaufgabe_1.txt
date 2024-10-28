@@ -1,0 +1,13 @@
+Thema Wohlgeformtheit vs. Validität
+
+1. Wohlgeformt bedeutet, dass ein Datenobjekt den Syntax-Regeln der XML-Spezifikation entspricht.
+   Valide bedeutet, dass es ein Datenobjekt wohlgeformt ist und zusätzlich den Bedingungen oder
+   Einschränkungen eines Schemas oder einer DTD entspricht.
+
+2. Um die Wohlgeformtheit einer XML-Datei überprüfen zu können, braucht man
+   neben der XML-Datei auch einen XML-Prozessor. In allen gängigen XML-Editoren,
+   wie zum Beispiel dem Oxygyen XML-Editor ist ein XML-Prozessor integriert.
+
+3. Um die Validität einer XML-Datei überprüfen zu können, braucht man neben der
+    XML-Datei und dem XML-Prozessor auch zusätzlich ein Schema oder eine DTD.
+    Die Validierung übernimmt der XML-Prozessor.

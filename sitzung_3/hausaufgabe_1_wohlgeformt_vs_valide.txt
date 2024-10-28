@@ -1,0 +1,7 @@
+Thema Wohlgeformtheit und Validität
+
+1. Definieren Sie die Begriffe wohlgeformt und valide.
+
+2. Was wird benötigt, um die Wohlgeformtheit einer XML-Datei zu überprüfen?
+
+3. Was wird benötigt, um die Validität einer XML-Datei zu überprüfen?
