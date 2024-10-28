@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <!-- Hier im Header-Bereich werden alle Metadaten erfasst. -->
+     <!-- Der Header-Bereich kann sehr klein sein, so wie hier,
+            oder mehrere Hundert Zeilen umfassen, sowie eine detaillierte
+            Beschreibung der Quelle(n), der Editionsrichtlinien und
+            der beteiligten Personen bzw. Institutionen enthalten. -->
+      <fileDesc>
+         <titleStmt>
+            <title>Hektors Abschied</title>
+            <author>Friedrich Schiller</author>
+            <respStmt>
+               <resp>transkribiert von</resp>
+               <name>XYZ</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Nicht publiziert.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Sämmtliche Gedichte von F. v. Schiller. Cotta: München, Stuttgart und Tübingen 1831.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <!-- Der Text-Bereich ist für die Kodierung des gesamten edierten Textes zuständig. -->
+     <front>
+        <!-- Hier käme die Titelei des Bandes hin. -->
+     </front>
+      <body>
+         <pb n="1"/>
+         <head type="title">Gedichte</head>
+         <head type="subtitle">Erſte Periode.</head>
+         <div type="gedicht" n="1">
+            <head><persName ref="pers001">Hektors</persName> Abſchied.</head>
+            <lg n="1">
+               <head><persName  ref="pers002">Andromache</persName>.</head>
+               <l n="1">Will ſich <persName ref="pers001">Hektor</persName> ewig von mir wenden,</l>
+               <l n="2">Wo <persName ref="pers003">Achill</persName> mit den unnahbar’n Händen</l>
+               <l n="3">Dem <persName ref="pers004">Patroklus</persName> ſchrecklich Opfer bringt?</l>
+               <l n="4">Wer wird künftig deinen Kleinen lehren</l>
+               <l n="5">Speere werfen und die Götter ehren,</l>
+               <l n="6">Wenn der finſtre <placeName ref="ort001">Orkus</placeName> dich verſchlingt?</l>
+            </lg>
+            <lg n="2">
+               <head><persName ref="pers001">Hektor</persName>.</head>
+               <l n="1">Theures Weib, gebiete deinen Thränen!</l>
+               <l n="2">Nach der Feldſchlacht iſt mein feurig Sehnen.</l>
+               <l n="3">Dieſe Arme ſchützen <placeName ref="ort002">Pergamus</placeName>.</l>
+               <l n="4">Kämpfend für den heil'gen Heerd der Götter</l>
+               <l n="5">Fall' ich, und des Vaterlandes Retter</l>
+               <l n="6">Steig' ich nieder zum dem ſtyg'ſchen Fluß.</l>
+            </lg>
+            <lg n="3">
+               <head><persName ref="pers002">Andromache</persName>.</head>
+               <l n="1">Nimmer lauſch ich deiner Waffen Schalle,</l>
+               <l n="2">Müßig liegt dein Eiſen in der Halle,</l>
+               <l n="3"><persName ref="pers005">Priams</persName> großer Heldenſtamm verdirbt.</l>
+               <l n="4">Du wirſt hingeh'n wo kein Tag mehr ſcheinet,</l>
+               <l n="5">Der <placeName ref="ort003">Cocytus</placeName> durch die Wüſten weinet,</l>
+               <l n="6">Deine Liebe in dem <placeName ref="ort004">Lethe</placeName> ſtirbt.</l>
+            </lg>
+            <pb n="2"/>
+            <lg n="4">
+               <head><persName ref="pers001">Hektor</persName>.</head>
+               <l n="1">All mein Sehnen will ich, all mein Denken,</l>
+               <l n="2">In des <placeName ref="ort005">Lethe</placeName> ſtillen Strom verſenken,</l>
+               <l n="3">Aber meine Liebe nicht.</l>
+               <l n="4">Horch! der Wilde tobt schon an den Mauern,</l>
+               <l n="5">Gürte mir das Schwert um, laß das Trauern!</l>
+               <l n="6"><persName ref="pers001">Hektors</persName> Liebe ſtirbt im <placeName ref="ort005">Lethe</placeName> nicht.</l>
+            </lg>
+         </div>
+         <!-- Hier kämen die restlichen Gedichte des Bandes hin. -->
+      </body>
+     <back>
+        <!-- Hier kämen die Anhänge des Bandes hin. -->
+     </back>
+  </text>
+</TEI>
